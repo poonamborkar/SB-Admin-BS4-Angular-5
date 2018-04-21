@@ -15,20 +15,20 @@ export class DashboardComponent implements OnInit {
         this.sliders.push(
             {
                 imagePath: 'assets/images/slider1.jpg',
-                label: 'First slide label',
+                label: 'Life Republic @hinjewadi',
                 text:
-                    'Nulla vitae elit libero, a pharetra augue mollis interdum.'
+                    'Luxurious upscale selfsustaining township in Hinjewadi Pune.'
             },
             {
                 imagePath: 'assets/images/slider2.jpg',
-                label: 'Second slide label',
-                text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
+                label: 'Lavish Duplexes',
+                text: 'Designed as per your requirements and specifications!'
             },
             {
                 imagePath: 'assets/images/slider3.jpg',
-                label: 'Third slide label',
+                label: 'Customizing Interior',
                 text:
-                    'Praesent commodo cursus magna, vel scelerisque nisl consectetur.'
+                    'Interiors provided by our experts meeting your needs and expectations.'
             }
         );
 
@@ -36,18 +36,12 @@ export class DashboardComponent implements OnInit {
             {
                 id: 1,
                 type: 'success',
-                message: `Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Voluptates est animi quibusdam praesentium quam, et perspiciatis,
-                consectetur velit culpa molestias dignissimos
-                voluptatum veritatis quod aliquam! Rerum placeat necessitatibus, vitae dolorum`
+                message: `TruHomes welcome you to whole new world !`
             },
             {
                 id: 2,
                 type: 'warning',
-                message: `Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Voluptates est animi quibusdam praesentium quam, et perspiciatis,
-                consectetur velit culpa molestias dignissimos
-                voluptatum veritatis quod aliquam! Rerum placeat necessitatibus, vitae dolorum`
+                message: `TruHomes`
             }
         );
     }
